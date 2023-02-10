@@ -1,0 +1,21 @@
+git checkout practica01_bernalgonzalez_david
+
+git status
+
+git add .
+
+git commit -m "editar ficheros"
+
+git branch practica01_agudolecha_manel
+
+git checkout practica01_agudolecha_manel
+
+git push
+
+git remote set-url origin https://github.com/manelsito/Repo06.git
+
+git push --set-upstream origin practica01_agudolecha_manel
+
+git checkout practica01
+
+git merge practica01_agudolecha_manel
